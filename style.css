@@ -1,0 +1,77 @@
+/**@keyframes changeColor {
+    0%{background-color: red; width: 100px;}
+    20%{background-color: blue; width: 240px;}
+    40%{background-color: yellow; width: 260px;}
+    60%{background-color: green; width: 280px;}
+    80%{background-color: rgb(146, 107, 127); width: 300px;}
+    100%{background-color: midnightblue; width: 200px;}
+}*/
+
+@keyframes move{
+    0%{left: 0px;}
+    100%{left:90%;}
+}
+
+.box{
+    width: 150px;
+    height: 130px;
+    position: relative;
+    border-style: solid;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-fill-mode: both;
+    
+    
+}
+
+
+.div1{
+    animation-timing-function: linear;
+    background-color: aqua;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2{
+    animation-timing-function: ease;
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3{
+    animation-timing-function: ease-in;
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div4{
+    animation-timing-function: ease-out;
+    background-color: brown;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div5{
+    animation-timing-function: ease-in-out;
+    background-color: chartreuse;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
